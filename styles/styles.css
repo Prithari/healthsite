@@ -222,4 +222,5 @@ main .section.highlight {
     font-size: 14px;
     color: #6e6e6e;
     font-style:italic;
+    line-height: 1;
 }
