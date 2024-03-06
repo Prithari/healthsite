@@ -208,3 +208,18 @@ main .section.light,
 main .section.highlight {
   background-color: var(--light-color);
 }
+
+/* new code */
+.default-content-wrapper h1{
+    font-size: 2.1em;
+    color: #CB177D;
+}
+.default-content-wrapper h2{
+    font-size: 1.8em;
+    color: #333333;
+}
+.default-content-wrapper p{
+    font-size: 14px;
+    color: #6e6e6e;
+    font-style:italic;
+}
