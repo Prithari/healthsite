@@ -218,7 +218,7 @@ main .section.highlight {
     font-size: 1.8em;
     color: #333333;
 }
-.default-content-wrapper p{
+.default-content-wrapper p strong{
     font-size: 14px;
     color: #6e6e6e;
     font-style:italic;
