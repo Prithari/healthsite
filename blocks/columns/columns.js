@@ -31,10 +31,11 @@ export default function decorate(block) {
     }
 
     var childDiv = document.querySelector('.row');
+    var childcheck = childDiv.children;
       // Append the new class name to the child element
-    if(childDiv.length > 0){ 
-          childDiv[0].classList.add('test');
-          childDiv[1].classList.add('test1');
+    if(childcheck.length > 0){ 
+          childcheck[0].classList.add('test');
+          childcheck[1].classList.add('test1');
     }
   } else {
     console.error('Parent div with class "' + parentClass + '" not found.');
