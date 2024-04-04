@@ -18,9 +18,7 @@ export default function decorate(block) {
   // new columns
   function appendClassToChildren(parentClass, childClass) {
   // Find the parent div by its class
-  var parentDiv = document.querySelector('.' + parentClass);
-    
-  
+  var parentDiv = document.querySelector('.' + parentClass);  
   // Check if the parent div exists
   if (parentDiv) {
     // Get all child elements of the parent div
@@ -31,12 +29,17 @@ export default function decorate(block) {
       // Append the new class name to the child element
       childElements[i].classList.add(childClass);
     }
-   
+
+    var childDiv = document.querySelector('.row');
+      // Append the new class name to the child element
+    if(childDiv.length > 0){ 
+          childDiv[0].classList.add('test');
+          childDiv[1].classList.add('test1');
+    }
   } else {
     console.error('Parent div with class "' + parentClass + '" not found.');
   }
 }
- 
 // Example usage:
 // Append the class "new-class" to all children of the div with class "parent-div"
 appendClassToChildren('columns-2-cols', 'row');
