@@ -40,6 +40,6 @@ export default function decorate(block) {
 appendClassToChildren('columns-2-cols', 'row');
 
 appendClassToChildren('row', 'col-md-3');
-appendClassToChildren('row', 'col-md-9');
+appendClassToChildren1('row', 'col-md-9');
   
 }
