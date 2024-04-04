@@ -32,9 +32,10 @@ export default function decorate(block) {
       childElements[i].classList.add(childClass + '-' + i , 'test');
     }
     var childDiv = document.querySelector('.test');
-    for (var i = 0; i < childDiv.length; i++) {
+    var childDiv1 = childDiv.children;
+    for (var i = 0; i < childDiv1.length; i++) {
       // Append the new class name to the child element
-      childDiv[i].classList.add('check -' + i);
+      childDiv1[i].classList.add('check -' + i);
     }
   } else {
     console.error('Parent div with class "' + parentClass + '" not found.');
