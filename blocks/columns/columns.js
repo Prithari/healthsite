@@ -19,6 +19,7 @@ export default function decorate(block) {
   function appendClassToChildren(parentClass, childClass) {
   // Find the parent div by its class
   var parentDiv = document.querySelector('.' + parentClass);
+    
   
   // Check if the parent div exists
   if (parentDiv) {
@@ -29,6 +30,11 @@ export default function decorate(block) {
     for (var i = 0; i < childElements.length; i++) {
       // Append the new class name to the child element
       childElements[i].classList.add(childClass + '-' + i , 'test');
+    }
+    var childDiv = document.querySelector('.test');
+    for (var i = 0; i < childDiv.length; i++) {
+      // Append the new class name to the child element
+      childElements[i].classList.add(childClass + 'check' + i);
     }
   } else {
     console.error('Parent div with class "' + parentClass + '" not found.');
