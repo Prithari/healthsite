@@ -29,15 +29,9 @@ export default function decorate(block) {
     // Loop through each child element
     for (var i = 0; i < childElements.length; i++) {
       // Append the new class name to the child element
-      childElements[i].classList.add(childClass + '-' + i , 'test');
+      childElements[i].classList.add(childClass);
     }
-    var childDiv = document.querySelector('.test');
-    var childDiv1 = childDiv.children;
-    for (var i = 0; i < childDiv1.length; i++) {
-      alert(childDiv1);
-      // Append the new class name to the child element
-      childDiv1[i].classList.add('check -' + i);
-    }
+   
   } else {
     console.error('Parent div with class "' + parentClass + '" not found.');
   }
