@@ -16,9 +16,9 @@ export default function decorate(block) {
     });
   });
   // new columns
-  function appendClassToChildren(columns-2-cols, test) {
+  function appendClassToChildren(parentClass, childClass) {
   // Find the parent div by its class
-  var parentDiv = document.querySelector('.' + columns-2-cols);
+  var parentDiv = document.querySelector('.' + parentClass);
   
   // Check if the parent div exists
   if (parentDiv) {
@@ -28,10 +28,16 @@ export default function decorate(block) {
     // Loop through each child element
     for (var i = 0; i < childElements.length; i++) {
       // Append the new class name to the child element
-      childElements[i].classList.add(test);
+      childElements[i].classList.add(childClass);
     }
   } else {
     console.error('Parent div with class "' + parentClass + '" not found.');
   }
 }
+ 
+// Example usage:
+// Append the class "new-class" to all children of the div with class "parent-div"
+appendClassToChildren('columns-2-cols', 'new-class');
+
+  
 }
