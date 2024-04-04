@@ -37,7 +37,7 @@ export default function decorate(block) {
  
 // Example usage:
 // Append the class "new-class" to all children of the div with class "parent-div"
-appendClassToChildren('columns-2-cols', 'new-class');
+appendClassToChildren('columns-2-cols', 'row');
 
   
 }
