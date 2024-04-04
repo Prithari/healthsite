@@ -34,8 +34,8 @@ export default function decorate(block) {
     var childchange = childDiv.children;
       // Append the new class name to the child element
     if(childchange.length > 0){ 
-          childchange[0].classList.add('col-3');
-          childchange[1].classList.add('col-9');
+          childchange[0].classList.add('col-md-3');
+          childchange[1].classList.add('col-md-9');
     }
   } else {
     console.error('Parent div with class "' + parentClass + '" not found.');
