@@ -34,6 +34,7 @@ export default function decorate(block) {
     var childDiv = document.querySelector('.test');
     var childDiv1 = childDiv.children;
     for (var i = 0; i < childDiv1.length; i++) {
+      alert(childDiv1);
       // Append the new class name to the child element
       childDiv1[i].classList.add('check -' + i);
     }
