@@ -39,6 +39,7 @@ export default function decorate(block) {
 // Append the class "new-class" to all children of the div with class "parent-div"
 appendClassToChildren('columns-2-cols', 'row');
 appendClassToChildren('row', 'test');
-
+const list = document.getElementsByClassName("row")[0];
+list.getElementsByClassName("child")[0].innerHTML = "Milk";
   
 }
