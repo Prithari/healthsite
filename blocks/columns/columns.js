@@ -28,7 +28,7 @@ export default function decorate(block) {
     // Loop through each child element
     for (var i = 0; i < childElements.length; i++) {
       // Append the new class name to the child element
-      childElements[i].classList.add(childClass);
+      childElements[i].classList.add(childClass + '-' + i);
     }
   } else {
     console.error('Parent div with class "' + parentClass + '" not found.');
@@ -38,7 +38,5 @@ export default function decorate(block) {
 // Example usage:
 // Append the class "new-class" to all children of the div with class "parent-div"
 appendClassToChildren('columns-2-cols', 'row');
-const list = document.getElementsByClassName("row")[0];
-list.appendClassToChildren('row', 'test');
   
 }
