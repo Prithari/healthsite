@@ -15,4 +15,23 @@ export default function decorate(block) {
       }
     });
   });
+  // new columns
+  function appendClassToChildren(columns-2-cols, test) {
+  // Find the parent div by its class
+  var parentDiv = document.querySelector('.' + columns-2-cols);
+  
+  // Check if the parent div exists
+  if (parentDiv) {
+    // Get all child elements of the parent div
+    var childElements = parentDiv.children;
+    
+    // Loop through each child element
+    for (var i = 0; i < childElements.length; i++) {
+      // Append the new class name to the child element
+      childElements[i].classList.add(test);
+    }
+  } else {
+    console.error('Parent div with class "' + parentClass + '" not found.');
+  }
+}
 }
