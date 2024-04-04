@@ -28,7 +28,7 @@ export default function decorate(block) {
     // Loop through each child element
     for (var i = 0; i < childElements.length; i++) {
       // Append the new class name to the child element
-      childElements[i].classList.add(childClass + '-' + i);
+      childElements[i].classList.add(childClass + '-' + i , 'test');
     }
   } else {
     console.error('Parent div with class "' + parentClass + '" not found.');
