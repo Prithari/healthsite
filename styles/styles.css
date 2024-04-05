@@ -224,3 +224,16 @@ main .section.highlight {
     font-style:italic;
     line-height: 1;
 }
+
+/* body split */
+main .section .accordion-container{
+  display: flex;
+  flex-wrap: wrap;
+  width:100%;
+}
+.accordion-wrapper{
+  width:25%;
+}
+.default-content-wrapper{
+  width:75%;
+}
