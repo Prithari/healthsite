@@ -31,3 +31,14 @@
     order: unset;
   }
 }
+
+.col-md-3 tr {
+    display: block;
+    padding: 10px 15px;
+    background: #CB177D;
+    color: #ffffff;
+    font-size: 1.3em;
+    text-decoration: none;
+    border-bottom: 1px solid #ffffff;
+    line-height: 1em;
+}
