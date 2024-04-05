@@ -38,20 +38,11 @@ export default function decorate(block) {
           childchange[1].classList.add('col-md-9');
     }
 
-    var childDiv = document.querySelector('.row');
-    var childchange = childDiv.children;
-      // Append the new class name to the child element
-    if(childchange.length > 0){ 
-          childchange[0].classList.add('col-md-3');
-          childchange[1].classList.add('col-md-9');
-    }
-
-    var uiDiv = document.querySelector('.uirow');
+    var uiDiv = document.querySelector('.col-md-3');
     var uichange = uiDiv.children;
       // Append the new class name to the child element
     if(uichange.length > 0){ 
           uichange[0].classList.add('test1');
-          uichange[1].classList.add('test2');
     }
 
  
