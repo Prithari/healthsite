@@ -226,8 +226,8 @@ main .section.highlight {
 }
 
 /* body split */
-.section .accordion-container{
-  display: flex;
+.accordion-container{
+  display: flex !important;
   flex-wrap: wrap;
   width:100%;
 }
