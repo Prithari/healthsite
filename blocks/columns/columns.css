@@ -86,7 +86,7 @@ ul.test1 li {
   display:none;
 }
 
-.test5 > .test7 > li a {
+.test5 > .test7 > li > a {
     padding: 0;
     text-decoration: none;
     color: #333;
