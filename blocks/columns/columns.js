@@ -37,6 +37,13 @@ export default function decorate(block) {
           childchange[0].classList.add('col-md-3');
           childchange[1].classList.add('col-md-9');
     }
+
+    var sideDiv = document.querySelector('.col-md-3' + 'tr');
+    var sideshow = sideDiv.children;
+    for (var i = 0; i < childElements.length; i++) {
+      // Append the new class name to the child element
+      childElements[i].classList.add('check- ' + i);
+    }
   } else {
     console.error('Parent div with class "' + parentClass + '" not found.');
   }
