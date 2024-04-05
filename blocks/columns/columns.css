@@ -46,4 +46,15 @@
 .col-md-9 h1{
   margin: 20px 0 20px 0;
   color: #CB177D;
+  font-size:28px;
+}
+
+.col-md-9 h2{
+  margin: 20px 0 20px 0;
+  color: #333333;
+  font-size:25px;
+}
+
+.col-md-9 p{
+  opacity: 0.7;
 }
