@@ -60,46 +60,9 @@
 }
 
 .col-md-3 ul {
-  list-style-type: none;
-  margin: 0;
   padding: 0;
+  margin: 0;
+	list-style: none;
+	position: relative;
 }
 
-ul.test1 li {
-    display: block;
-    padding: 10px 15px;
-    background: #CB177D;
-    color: #ffffff;
-    font-size: 1.3em;
-    text-decoration: none;
-    border-bottom: 1px solid #ffffff;
-    line-height: 1em;
-}
-
-.test5 ul li{
-  padding: 10px 15px 10px 30px;
-    background: #f4f4f4;
-    color: #6e6e6e;
-    font-size: 15px;
-    text-decoration: none;
-    border-bottom: 1px solid #ffffff;
-    line-height: 1em;
-}
-
-.test5 ul{
-  display:none;
-}
-
-.test7 ul{
-  display:none;
-}
-
-.test7 ul li{
-  padding: 10px 15px 10px 30px;
-    background: #f4f4f4;
-    color: #6e6e6e;
-    font-size: 15px;
-    text-decoration: none;
-    border-bottom: 1px solid #ffffff;
-    line-height: 1em;
-}
