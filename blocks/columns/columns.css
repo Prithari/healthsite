@@ -67,7 +67,7 @@
 }
 
 ul.test1 li {
-    display: inline-block;
+    display: block;
     padding: 10px 15px;
     background: #CB177D;
     color: #ffffff;
