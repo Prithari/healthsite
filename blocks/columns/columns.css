@@ -66,11 +66,15 @@
   position: relative;
 }
 
+.col-md-3 ul li a{
+  padding: 10px 15px;
+  text-decoration:none;
+   color: #ffffff;
+}
+
 ul.test1 li {
     display: block;
-    padding: 10px 15px;
     background: #CB177D;
-    color: #ffffff;
     font-size: 1.3em;
     text-decoration: none;
     border-bottom: 1px solid #ffffff;
