@@ -45,6 +45,14 @@ export default function decorate(block) {
           uichange[0].classList.add('test1');
     }
 
+    var uiDiv1 = document.querySelector('.test1');
+    var uichange1 = uiDiv1.children;
+      // Append the new class name to the child element
+    if(uichange1.length > 0){ 
+          uichange1[0].classList.add('test2');
+      uichange1[1].classList.add('test3');
+    }
+
  
   } else {
     console.error('Parent div with class "' + parentClass + '" not found.');
@@ -53,5 +61,4 @@ export default function decorate(block) {
 // Example usage:
 // Append the class "new-class" to all children of the div with class "parent-div"
 appendClassToChildren('columns-2-cols', 'row');
-appendClassToChildren('col-md-3', 'uirow');  
 }
