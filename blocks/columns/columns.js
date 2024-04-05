@@ -51,6 +51,8 @@ export default function decorate(block) {
     if(uichange1.length > 0){ 
           uichange1[0].classList.add('test2');
       uichange1[1].classList.add('test3');
+      uichange1[2].classList.add('test4');
+       uichange1[3].classList.add('test5');
     }
 
  
