@@ -42,3 +42,8 @@
     border-bottom: 1px solid #ffffff;
     line-height: 1em;
 }
+
+.col-md-9 h1{
+  margin: 20px 0 20px 0;
+  color: #CB177D;
+}
