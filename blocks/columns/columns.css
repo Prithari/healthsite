@@ -77,7 +77,13 @@ ul.test1 li {
 }
 
 .test5 ul li{
-  padding: 0 !important;
+  padding: 10px 15px 10px 30px;
+    background: #f4f4f4;
+    color: #6e6e6e;
+    font-size: 1.1em;
+    text-decoration: none;
+    border-bottom: 1px solid #ffffff;
+    line-height: 1em;
 }
 
 .test5 ul{
