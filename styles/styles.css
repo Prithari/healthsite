@@ -225,15 +225,3 @@ main .section.highlight {
     line-height: 1;
 }
 
-/* body split */
-.accordion-container{
-  display: flex !important;
-  flex-wrap: wrap;
-  width:100%;
-}
-.accordion-wrapper{
-  width:25%;
-}
-.default-content-wrapper{
-  width:75%;
-}
