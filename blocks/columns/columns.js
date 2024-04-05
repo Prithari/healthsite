@@ -42,24 +42,23 @@ export default function decorate(block) {
     var uichange = uiDiv.children;
       // Append the new class name to the child element
     if(uichange.length > 0){ 
-          uichange[0].classList.add('test1');
+          uichange[0].classList.add('list1');
     }
 
-    var uiDiv1 = document.querySelector('.test1');
+    var uiDiv1 = document.querySelector('.list1');
     var uichange1 = uiDiv1.children;
       // Append the new class name to the child element
     if(uichange1.length > 0){ 
-        uichange1[0].classList.add('test2');
-      	uichange1[1].classList.add('test3');
-      	uichange1[2].classList.add('test4');
-       	uichange1[3].classList.add('test5');
-	uichange1[4].classList.add('test6');
-      	uichange1[5].classList.add('test7');
-      	uichange1[6].classList.add('test8');
-       	uichange1[7].classList.add('test9');
+        uichange1[0].classList.add('list2');
+      	uichange1[1].classList.add('list3');
+      	uichange1[2].classList.add('list4');
+       	uichange1[3].classList.add('list5');
+	uichange1[4].classList.add('list6');
+      	uichange1[5].classList.add('list7');
+      	uichange1[6].classList.add('list8');
+       	uichange1[7].classList.add('list9');
     }
 
- 
   } else {
     console.error('Parent div with class "' + parentClass + '" not found.');
   }
@@ -68,12 +67,12 @@ export default function decorate(block) {
 // Append the class "new-class" to all children of the div with class "parent-div"
 appendClassToChildren('columns-2-cols', 'row');
   
-  document.querySelector('.test5').addEventListener('click', () => {
-       		document.querySelector('.test5 ul').style.display = "block";
-	});
+document.querySelector('.list5').addEventListener('click', () => {
+   document.querySelector('.list5 ul').style.display = "block";
+});
 
-	 document.querySelector('.test7').addEventListener('click', () => {
-       		document.querySelector('.test7 ul').style.display = "block";
-	});
+ document.querySelector('.list7').addEventListener('click', () => {
+   document.querySelector('.list7 ul').style.display = "block";
+});
   
 }
