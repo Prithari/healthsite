@@ -38,7 +38,7 @@ export default function decorate(block) {
           childchange[1].classList.add('col-md-9');
     }
 
-    var sideDiv = document.querySelector('.col-md-3' + 'tr');
+    var sideDiv = document.querySelector('.col-md-3');
     var sideshow = sideDiv.children;
     for (var i = 0; i < childElements.length; i++) {
       // Append the new class name to the child element
