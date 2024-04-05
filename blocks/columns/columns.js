@@ -71,5 +71,9 @@ appendClassToChildren('columns-2-cols', 'row');
   document.querySelector('.test5').addEventListener('click', () => {
        		document.querySelector('.test5 ul').style.display = "block";
 	});
+
+	 document.querySelector('.test7').addEventListener('click', () => {
+       		document.querySelector('.test7 ul').style.display = "block";
+	});
   
 }
