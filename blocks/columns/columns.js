@@ -42,7 +42,7 @@ export default function decorate(block) {
     var sideshow = sideDiv.children;
     for (var i = 0; i < childElements.length; i++) {
       // Append the new class name to the child element
-      childElements[i].classList.add('check- ' + i);
+      childElements[i].classList.add('check -' + i);
     }
   } else {
     console.error('Parent div with class "' + parentClass + '" not found.');
