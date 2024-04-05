@@ -38,12 +38,7 @@ export default function decorate(block) {
           childchange[1].classList.add('col-md-9');
     }
 
-    var sideDiv = document.querySelector('.col-md-3');
-    var sideshow = sideDiv.children;
-    for (var i = 0; i < childElements.length; i++) {
-      // Append the new class name to the child element
-      childElements[i].classList.add('check -' + i);
-    }
+    
   } else {
     console.error('Parent div with class "' + parentClass + '" not found.');
   }
@@ -51,5 +46,5 @@ export default function decorate(block) {
 // Example usage:
 // Append the class "new-class" to all children of the div with class "parent-div"
 appendClassToChildren('columns-2-cols', 'row');
-  
+appendClassToChildren('col-md-3', 'uirow');  
 }
