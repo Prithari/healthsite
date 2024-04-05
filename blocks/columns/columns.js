@@ -49,10 +49,14 @@ export default function decorate(block) {
     var uichange1 = uiDiv1.children;
       // Append the new class name to the child element
     if(uichange1.length > 0){ 
-          uichange1[0].classList.add('test2');
-      uichange1[1].classList.add('test3');
-      uichange1[2].classList.add('test4');
-       uichange1[3].classList.add('test5');
+        uichange1[0].classList.add('test2');
+      	uichange1[1].classList.add('test3');
+      	uichange1[2].classList.add('test4');
+       	uichange1[3].classList.add('test5');
+	uichange1[4].classList.add('test6');
+      	uichange1[5].classList.add('test7');
+      	uichange1[6].classList.add('test8');
+       	uichange1[7].classList.add('test9');
     }
 
  
