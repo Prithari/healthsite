@@ -38,13 +38,7 @@ export default function decorate(block) {
           childchange[1].classList.add('col-md-9');
     }
 
-    var UiDiv = document.querySelector('.uirow');
-    var Uichange = UiDiv.children;
-      // Append the new class name to the child element
-    for (var i = 0; i < Uichange.length; i++) {
-      // Append the new class name to the child element
-      Uichange[i].classList.add('check -' + i);
-    }
+ 
   } else {
     console.error('Parent div with class "' + parentClass + '" not found.');
   }
