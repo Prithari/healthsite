@@ -87,7 +87,7 @@ ul.test1 li {
     line-height: 1em;
 }
 
-.test5 .test7 ul{
+.test5.test7 ul{
   display:none;
 }
 
