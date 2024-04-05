@@ -63,4 +63,9 @@ export default function decorate(block) {
 // Example usage:
 // Append the class "new-class" to all children of the div with class "parent-div"
 appendClassToChildren('columns-2-cols', 'row');
+  
+  document.querySelector('.test5').addEventListener('click', () => {
+       		document.querySelector('.test5 ul').style.display = "block";
+	});
+  
 }
