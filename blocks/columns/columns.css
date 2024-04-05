@@ -66,3 +66,8 @@
 	position: relative;
 }
 
+.col-md-3 ul li{
+	display:inline-block;
+	background-color: #CB177D;
+}
+
