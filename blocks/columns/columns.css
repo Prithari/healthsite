@@ -82,6 +82,16 @@ ul.test1 li {
     line-height: 1em;
 }
 
+.test5 > .test7 > ul{
+  display:none;
+}
+
+.test5 > .test7 > li a {
+    padding: 0;
+    text-decoration: none;
+    color: #333;
+}
+
 .test5 ul li{
   padding: 10px 15px 10px 30px;
     background: #f4f4f4;
@@ -90,14 +100,6 @@ ul.test1 li {
     text-decoration: none;
     border-bottom: 1px solid #ffffff;
     line-height: 1em;
-}
-
-.test5 ul{
-  display:none;
-}
-
-.test7 ul{
-  display:none;
 }
 
 .test7 ul li{
