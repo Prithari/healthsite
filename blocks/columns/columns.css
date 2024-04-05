@@ -65,6 +65,17 @@
   padding: 0;
 }
 
+ul.test1 li {
+    display: block;
+    padding: 10px 15px;
+    background: #CB177D;
+    color: #ffffff;
+    font-size: 1.3em;
+    text-decoration: none;
+    border-bottom: 1px solid #ffffff;
+    line-height: 1em;
+}
+
 .test5 ul{
   display:none;
 }
