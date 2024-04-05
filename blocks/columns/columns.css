@@ -77,7 +77,7 @@ ul.test1 li {
     line-height: 1em;
 }
 
-.test5 ul li{
+.test5 .test7 ul li{
   padding: 10px 15px 10px 30px;
     background: #f4f4f4;
     color: #6e6e6e;
@@ -87,18 +87,8 @@ ul.test1 li {
     line-height: 1em;
 }
 
-.test5, .test7 ul{
+.test5 .test7 ul{
   display:none;
-}
-
-.test7 ul li{
-  padding: 10px 15px 10px 30px;
-    background: #f4f4f4;
-    color: #6e6e6e;
-    font-size: 15px;
-    text-decoration: none;
-    border-bottom: 1px solid #ffffff;
-    line-height: 1em;
 }
 
 
