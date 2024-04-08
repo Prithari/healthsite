@@ -39,6 +39,6 @@ function appendClassToChildren(parentClass, childClass) {
 }
 // Example usage:
 // Append the class "new-class" to all children of the div with class "parent-div"
-appendClassToChildren('block', 'footer-lt');
+appendClassToChildren('footer', 'footer-lt');
   
 }
