@@ -55,8 +55,10 @@
   font-size:25px;
 }
 
-.col-md-9 p strong em{
+.col-md-9 h3{
   opacity: 0.7;
+  color: #333333;
+  font-size:14px;
 }
 
 .col-md-3 ul {
