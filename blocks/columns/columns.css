@@ -77,7 +77,7 @@ list1 li a:hover{
   display: block;
   padding: 10px 15px;
   text-decoration:none;
-  color: #CB177D;
+  color: #CB177D !important;
 }
 
 ul.list1 li {
