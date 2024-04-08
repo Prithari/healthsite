@@ -73,10 +73,7 @@
   color: #ffffff;
 }
 
-list1 li a:hover{
-  display: block;
-  padding: 10px 15px;
-  text-decoration:none;
+li a:hover{
   color: #CB177D !important;
 }
 
