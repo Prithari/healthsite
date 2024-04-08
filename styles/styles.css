@@ -225,3 +225,8 @@ main .section.highlight {
     line-height: 1;
 }
 
+.footer .cards > ul > li {
+    border: none;
+    background-color: none;
+    color:#fff;
+}
