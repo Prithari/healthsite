@@ -142,12 +142,11 @@ ul.list1 li:hover {
 }
 
 .col-md-9 table tbody tr td p strong{
-    background: red;
+    background: #CB177D;
     width: 100%;
     display: flex;
     font-size: 1.6em !important;
     color: #ffffff;
-    background: #CB177D;
     padding: 10px 20px;
 }
 
