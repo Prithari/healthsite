@@ -172,5 +172,6 @@ ul.list1 li:hover {
 .col-md-9 table tbody tr td h3{
     font-size:18px;
     padding: 10px 20px;
+    font-weight:normal;
 }
 
