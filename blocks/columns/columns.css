@@ -141,4 +141,14 @@ ul.list1 li:hover {
     margin-bottom: 20px;
 }
 
+.col-md-9 table p strong{
+    background: red;
+    width: 100%;
+    display: flex;
+    font-size: 1.6em !important;
+    color: #ffffff;
+    background: #CB177D;
+    padding: 10px 20px;
+}
+
 
