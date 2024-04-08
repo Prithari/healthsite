@@ -56,10 +56,10 @@
 }
 
 .col-md-9 h3{
-  opacity: 0.7;
-  color: #333333;
+  color: #6e6e6e;
   font-size:14px;
-  line-height: 20px;
+  line-height: 22px;
+  font-weight: bold;
 }
 
 .col-md-3 ul {
