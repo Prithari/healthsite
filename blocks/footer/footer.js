@@ -41,6 +41,6 @@ export default async function decorate(block) {
 }
 // Example usage:
 // Append the class "new-class" to all children of the div with class "parent-div"
-appendClassToChildren('cards', 'footer-lst');
+appendClassToChildren('columns-2-cols', 'row');
   
 }
