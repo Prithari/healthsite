@@ -13,6 +13,9 @@ footer .footer p {
   margin: 0;
 }
 /* New style */
+.cards .cards-card-body p {
+    cursor: pointer;
+}
 .footer .default-content-wrapper{
   text-align: center;
   margin-top: 60px;
