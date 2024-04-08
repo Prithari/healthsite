@@ -231,9 +231,6 @@ main .section.highlight {
     color:#fff;
     font-size: 14px;
 }
-.footer .cards > ul > li > cards-card-body > p {
-    cursor: pointer;
-}
 .footer .cards > ul > li img {
     width: 60%;
     aspect-ratio: unset;
