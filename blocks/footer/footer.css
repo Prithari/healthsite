@@ -15,6 +15,8 @@ footer .footer p {
 /* New style */
 .footer .default-content-wrapper{
   text-align: center;
+  margin-top: 60px;
+  display: inline-block;
 }
 
 .footer .default-content-wrapper h2{
@@ -31,22 +33,7 @@ footer .footer p {
     padding: 5px;
 }
 
-.footer .default-content-wrapper h2{
-    font-size: 18px;
-    color: #fff;
-    text-align: center;
-    transition: all .3s ease;
-    border: 0;
-    background: #CB177D;
-    border-radius: 4px;
-    white-space: normal;
-    width: 420px;
-    display: inline;
-    padding: 5px;
-    margin-top 50px;
-}
-
-.footer .default-content-wrapper h2{
+.footer .default-content-wrapper h3{
     font-size: 14px;
     color: #fff;
     text-align: center;
