@@ -170,8 +170,8 @@ ul.list1 li:hover {
 }
 
 .col-md-9 table tbody tr td h3{
-    font-size:18px;
+    font-size:18px !important;
     padding: 10px 20px;
-    font-weight:normal;
+    font-weight: normal;
 }
 
