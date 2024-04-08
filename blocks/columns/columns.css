@@ -166,11 +166,13 @@ ul.list1 li:hover {
     font-size:14px !important;
     padding: 10px 20px;
     font-weight: normal;
+    color: #6e6e6e;
 }
 
 .col-md-9 table tbody tr td h3{
     font-size:18px !important;
     padding: 10px 20px;
     font-weight: normal;
+    margin-top: 0 !important;
 }
 
