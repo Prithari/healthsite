@@ -227,6 +227,6 @@ main .section.highlight {
 
 .footer .cards > ul > li {
     border: none;
-    background-color: none;
+    background-color: #595959;
     color:#fff;
 }
