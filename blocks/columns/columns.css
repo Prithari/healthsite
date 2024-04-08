@@ -84,7 +84,7 @@ ul.list1 li {
 
 ul.list1 li:hover {
     background: #ffffff;
-    color: #CB177D;
+    color: #CB177D !important;
     text-decoration: none;
 }
 
