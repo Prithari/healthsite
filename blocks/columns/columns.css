@@ -82,6 +82,12 @@ ul.list1 li {
     line-height: 1em;
 }
 
+ul.list1 li:hover {
+    background: #ffffff;
+    color: #CB177D;
+    text-decoration: none;
+}
+
 .list5 {
 	ul {
 		display: none;
