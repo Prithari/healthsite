@@ -39,7 +39,7 @@ header nav[aria-expanded="true"] {
 @media (width >= 900px) {
   header nav {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
   }
 
   header nav[aria-expanded="true"] {
@@ -231,7 +231,7 @@ header nav .nav-sections ul > li > ul > li {
 
   header nav .nav-sections ul {
     display: flex;
-    gap: 2em;
+    /* gap: 2em; */
     margin: 0;
     font-size: var(--body-font-size-xs);
   }
@@ -240,6 +240,10 @@ header nav .nav-sections ul > li > ul > li {
     flex: 0 1 auto;
     position: relative;
     font-weight: 500;
+    min-width:215px;
+    background: #CB177D;
+    border-left: 1px solid #ffffff;
+    vertical-align: middle;
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li > ul {
