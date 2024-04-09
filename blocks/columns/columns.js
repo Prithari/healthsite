@@ -48,9 +48,9 @@ export default function decorate(block) {
     var uiDiv1 = document.querySelector('.list1');
     var uichange1 = uiDiv1.children;
       // Append the new class name to the child element
-	for (var i = 0; i < uichange1.length; i++) {
+	for (var i = 1; i < uichange1.length; i++) {
       // Append the new class name to the child element
-      uichange1[i].classList.add('list' , i+2);
+      uichange1[i].classList.add('list',i+1);
     }  
     
 
