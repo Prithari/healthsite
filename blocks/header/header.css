@@ -245,7 +245,11 @@ header nav .nav-sections ul > li > ul > li {
     border-left: 1px solid #ffffff;
     vertical-align: middle;
   }
-
+  
+  header nav .nav-sections .default-content-wrapper > ul > li:hover {
+    background: #6e6e6e;
+  }
+  
   header nav .nav-sections .default-content-wrapper > ul > li > ul {
     display: none;
     position: relative;
