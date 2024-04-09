@@ -43,7 +43,8 @@ header nav[aria-expanded="true"] {
   }
 
   header nav[aria-expanded="true"] {
-    min-height: 0;
+    /* min-height: 0; */
+    min-height: 120px;
     overflow: visible;
   }
 }
