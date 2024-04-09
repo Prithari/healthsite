@@ -39,7 +39,7 @@ header nav[aria-expanded="true"] {
 @media (width >= 900px) {
   header nav {
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between; 
   }
 
   header nav[aria-expanded="true"] {
