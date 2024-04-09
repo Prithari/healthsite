@@ -48,16 +48,11 @@ export default function decorate(block) {
     var uiDiv1 = document.querySelector('.list1');
     var uichange1 = uiDiv1.children;
       // Append the new class name to the child element
-    if(uichange1.length > 0){ 
-        uichange1[0].classList.add('list2');
-      	uichange1[1].classList.add('list3');
-      	uichange1[2].classList.add('list4');
-       	uichange1[3].classList.add('list5');
-	uichange1[4].classList.add('list6');
-      	uichange1[5].classList.add('list7');
-      	uichange1[6].classList.add('list8');
-       	uichange1[7].classList.add('list9');
-    }
+	for (var i = 0; i < uichange1.length; i++) {
+      // Append the new class name to the child element
+      uichange1[i].classList.add('list' , i+2);
+    }  
+    
 
   } else {
     console.error('Parent div with class "' + parentClass + '" not found.');
