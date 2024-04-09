@@ -176,3 +176,6 @@ ul.list1 li:hover {
     margin-top: 0 !important;
 }
 
+.col-md-3 {
+    padding: 0;
+}
