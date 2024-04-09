@@ -249,6 +249,19 @@ header nav .nav-sections ul > li > ul > li {
   header nav .nav-sections .default-content-wrapper > ul > li:hover {
     background: #6e6e6e;
   }
+
+  header nav .nav-sections .default-content-wrapper > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    outline-color: #000000;
+    outline-width: 3px;
+  }
   
   header nav .nav-sections .default-content-wrapper > ul > li > ul {
     display: none;
