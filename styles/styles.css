@@ -74,7 +74,8 @@ body.appear {
 }
 
 header {
-  height: var(--nav-height);
+  /* height: var(--nav-height); */
+  height: 160px;
 }
 
 h1, h2, h3,
