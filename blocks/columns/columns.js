@@ -50,7 +50,7 @@ export default function decorate(block) {
       // Append the new class name to the child element
 	for (var i = 0; i < uichange1.length; i++) {
       // Append the new class name to the child element
-      uichange1[i].classList.add("list"+=i+1);
+      uichange1[i].classList.add("list",i+1);
     }  
     
 
