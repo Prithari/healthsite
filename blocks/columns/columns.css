@@ -88,6 +88,7 @@ ul.list1 li {
 
 ul.list1 li:hover {
    background-color:#fff;
+   color:#CB177D;
 }
 
 ul.list1 li a:hover {
@@ -177,6 +178,7 @@ ul.list1 li a:hover {
 .list7:hover::before{
 	color: #CB177D !important;
 }
+
 .main-rtl table{
     width:100%;
     background: #f4f4f4;
