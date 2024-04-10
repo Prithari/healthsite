@@ -70,8 +70,8 @@ document.querySelector('.list5').addEventListener('click', () => {
 
 	if(check.className.includes('hide')){
 		document.querySelector('.list5 ul').style.display = "block";
-		check.addClass("show");
-		check.removeClass("hide");
+		check.classList.add("show");
+		check.classList.remove("hide");
 	}else{
 		
 	}
