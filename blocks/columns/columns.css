@@ -179,3 +179,24 @@ ul.list1 li:hover {
 .col-md-3 {
     padding: 0;
 }
+
+.col-md-9 ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+}
+
+.col-md-9 ol > li:before {  
+    background-color: red;
+    margin-right: 5px;
+    padding: 0 5px;
+    content: counter(index, decimal);
+    counter-increment:index;
+}
+.col-md-9 ol  li:first-child {
+    counter-reset:index;
+}
+.col-md-9 ol li {
+    list-style: none;
+}
