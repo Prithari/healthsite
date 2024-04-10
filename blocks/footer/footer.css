@@ -59,7 +59,7 @@ li.foot-img .cards-card-body {
     gap: 10px;
 }
 
-.foot-social .cards-card-body img {
+.foot-social .cards-card-body picture img {
     width: 85%;
     aspect-ratio: unset;
     object-fit: cover;
