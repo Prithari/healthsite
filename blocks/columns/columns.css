@@ -174,34 +174,21 @@ ul.list1 li {
     cursor: pointer;
 }
 
-li.list5.show {
+.nav-list.show {
     background: #fff;
 }
-li.list5.show a {
+.nav-list.show a {
     color: #CB177D;
 }
-li.list5.show ul li a {
+.nav-list.show ul li a {
     color: #333;
     padding: 0;
     text-decoration: none;
 }
-li.list5.show ul li a:hover {
+.nav-list.show ul li a:hover {
     color: #CB177D;
 }
-li.list7.show {
-    background: #fff;
-}
-li.list7.show a {
-    color: #CB177D;
-}
-li.list7.show ul li a {
-    color: #333;
-    padding: 0;
-    text-decoration: none;
-}
-li.list7.show ul li a:hover {
-    color: #CB177D;
-}
+
 .main-rtl table{
     width:100%;
     background: #f4f4f4;
