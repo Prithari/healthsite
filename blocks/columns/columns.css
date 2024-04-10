@@ -81,6 +81,16 @@ li a:hover{
   color: #fff;
 }
 
+ul.list1 li a:hover {
+    color: #CB177D;
+    background: #fff;
+}
+
+ul.list5:before:hover {
+    color: #CB177D;
+    background: #fff;
+}
+
 ul.list1 li {
     display: block;
     background: #CB177D;
