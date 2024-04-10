@@ -51,6 +51,9 @@ export default function decorate(block) {
 	for (var i = 0; i < uichange1.length; i++) {
       // Append the new class name to the child element
       uichange1[i].classList.add("list"+(i+2));
+		if(i == 3){
+		 uichange1[i].classList.add("hide");
+		}
     }   
 
   } else {
@@ -62,8 +65,7 @@ export default function decorate(block) {
 appendClassToChildren('columns-2-cols', 'row');
   
 document.querySelector('.list5').addEventListener('click', () => {
-	var test = '.list5 ul'.style.display;
-	console.log("test");
+	document.
 });
 
  document.querySelector('.list7').addEventListener('click', () => {
