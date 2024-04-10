@@ -61,4 +61,5 @@ li.foot-img .cards-card-body {
 
 .foot-social .cards-card-body img {
     width: 85% !important;
+    cursor: pointer;
 }
