@@ -186,9 +186,10 @@ ul.list1 li {
     background: #CB177D;
     width: 100%;
     display: flex;
-    font-size: 1.6em !important;
+    font-size: 22px !important;
     color: #ffffff;
     padding: 10px 20px;
+    font-weight: 500;
 }
 
 .main-rtl table tbody tr td h4{
