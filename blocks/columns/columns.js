@@ -68,7 +68,7 @@ document.querySelector('.list5').addEventListener('click', () => {
 	var check = document.querySelector('.list5')
 		console.log(check.className);
 
-	if(check.className == 'hide'){
+	if(check.className.includes('hide')){
 		alert();
 		document.querySelector('.list5 ul').style.display = "block";
 		this.addclass("show");
