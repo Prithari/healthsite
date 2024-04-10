@@ -80,7 +80,18 @@ document.querySelector('.list5').addEventListener('click', () => {
 });
 
  document.querySelector('.list7').addEventListener('click', () => {
-   document.querySelector('.list7 ul').style.display = "block";
+	 var check = document.querySelector('.list7')
+		console.log(check.className);
+
+	if(check.className.includes('hide')){
+		document.querySelector('.list7 ul').style.display = "block";
+		check.classList.add("show");
+		check.classList.remove("hide");
+	}else{
+		document.querySelector('.list7 ul').style.display = "none";
+		check.classList.add("hide");
+		check.classList.remove("show");
+	}
 });
 
 }  
