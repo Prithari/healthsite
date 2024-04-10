@@ -86,16 +86,14 @@ ul.list1 li {
     line-height: 1em;
 }
 
-.nav-list:hover{
+/*.nav-list:hover{
    background: #fff;
 }
 
 .nav-list a:hover{
    color: #CB177D;
-}
-.list5:hover::before .nav-list a {
-   color: #CB177D;
-}
+}*/
+
 .list5 {
 	position: relative;
 	ul {
