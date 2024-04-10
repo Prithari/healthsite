@@ -188,3 +188,24 @@ ul.list1 li:hover {
 	margin-bottom:10px;
 }
 
+ol.custom {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+ol.custom > li {
+  counter-increment: customlistcounter;
+ 
+}
+
+ol.custom > li:before {
+  content: counter(customlistcounter) " ";
+  font-weight: bold;
+  float: left;
+  width: 3em;
+  color: red;
+}
+
+ol.custom:first-child {
+  counter-reset: customlistcounter;
+}
