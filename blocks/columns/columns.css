@@ -182,6 +182,8 @@ li.list5.show a {
 }
 li.list5.show ul li a {
     color: #333;
+    padding: 0;
+    text-decoration: none;
 }
 li.list5.show ul li a:hover {
     color: #CB177D;
@@ -194,6 +196,8 @@ li.list7.show a {
 }
 li.list7.show ul li a {
     color: #333;
+    padding: 0;
+    text-decoration: none;
 }
 li.list7.show ul li a:hover {
     color: #CB177D;
