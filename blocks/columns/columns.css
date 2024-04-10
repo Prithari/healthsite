@@ -176,6 +176,14 @@ ul.list1 li:hover {
     margin-top: 0 !important;
 }
 
+.col-md-3 {
+    padding: 0;
+}
+
+.col-md-9 {
+    margin-bottom: 20px;
+}
+
 li:before {
   content: '';
   display: inline-block;
@@ -198,9 +206,3 @@ li.aqua:before {
 li.yellow:before {
   background-color: yellow;
 }
-
-.col-md-3 {
-    padding: 0;
-}
-
-
