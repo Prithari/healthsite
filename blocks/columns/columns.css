@@ -103,7 +103,7 @@ ul.list1 li {
 	
 }
 
-.list5.list7:before{
+.list5 .list7:before{
 	font-family: "Font Awesome 5 Free";
 	content: "\f055";
 	display: inline-block;
@@ -117,7 +117,7 @@ ul.list1 li {
 	cursor:pointer;
 }
 
-.list5.list7.show:before {
+.list5 .list7.show:before {
     font-family: "Font Awesome 5 Free";
     content: "\f056";
     display: inline-block;
