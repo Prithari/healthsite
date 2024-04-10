@@ -69,4 +69,5 @@ document.querySelector('.list5').addEventListener('click', () => {
  document.querySelector('.list7').addEventListener('click', () => {
    document.querySelector('.list7 ul').style.display = "block";
 });
-  
+
+}  
