@@ -90,7 +90,7 @@ ul.list5:hover::before {
     color: #CB177D;
 }
 ul.list7:hover::before {
-    color: #CB177D;
+    color: red;
 }
 ul.list1 li {
     display: block;
