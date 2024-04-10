@@ -69,12 +69,7 @@
   list-style: none;
   position: relative;
 }
-li.list5.nav-list.hide:hover::before{
-	color: #CB177D;
-}
-li.list5.nav-list.hide::before{
-	color: #CB177D;
-}
+
 .list1 li a{
   display: block;
   padding: 10px 15px;
