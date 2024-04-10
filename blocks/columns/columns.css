@@ -86,11 +86,11 @@ ul.list1 li {
     line-height: 1em;
 }
 
-ul.nav-list li:hover{
+.nav-list li:hover{
    background: #fff;
 }
 
-ul.nav-list li a:hover{
+.nav-list li a:hover{
    color: #CB177D;
 }
 
