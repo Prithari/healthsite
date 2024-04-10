@@ -38,7 +38,7 @@ function appendClassToChildren(parentClass, childClass) {
     var footDiv = document.querySelector('.footer-ul');
     var footchange = footDiv.children;
       // Append the new class name to the child element
-    if(childchange.length > 0){ 
+    if(footchange.length > 0){ 
           footchange[2].classList.add('foot-img');
           footchange[3].classList.add('foot-social');
     }
