@@ -188,17 +188,17 @@ ul.list1 li:hover {
 	margin-bottom:10px;
 }
 
-ol.custom {
+ol {
   list-style-type: none;
   margin-left: 0;
 }
 
-ol.custom > li {
+ol > li {
   counter-increment: customlistcounter;
  
 }
 
-ol.custom > li:before {
+ol > li:before {
   content: counter(customlistcounter) " ";
   font-weight: bold;
   float: left;
@@ -206,6 +206,6 @@ ol.custom > li:before {
   color: red;
 }
 
-ol.custom:first-child {
+ol:first-child {
   counter-reset: customlistcounter;
 }
