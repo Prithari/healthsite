@@ -20,14 +20,14 @@
 }
 
 @media (width >= 900px) {
-  .columns > div {
+  /*.columns > div {
     align-items: start;
     flex-direction: unset;
     gap: 32px;
-  }
+  }*/
 
   .columns > div > div {
-    // flex: 1;
+    /* flex: 1; */
     order: unset;
   }
 }
