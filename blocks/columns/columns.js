@@ -64,7 +64,7 @@ appendClassToChildren('columns-2-cols', 'row');
   
 document.querySelector('.list5').addEventListener('click', () => {
 	var test = document.querySelector('.list5 ul').style.display;
-	
+	console.log('check '+ test);
 });
 
  document.querySelector('.list7').addEventListener('click', () => {
