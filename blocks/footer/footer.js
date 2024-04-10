@@ -18,9 +18,8 @@ export default async function decorate(block) {
   while (fragment.firstElementChild) footer.append(fragment.firstElementChild);
 
   block.append(footer);
-}
 
-// new columns
+  // new columns
 function appendClassToChildren(parentClass, childClass) {
   // Find the parent div by its class
   var parentDiv = document.querySelector('.' + parentClass);
@@ -42,4 +41,7 @@ function appendClassToChildren(parentClass, childClass) {
  
 // Example usage:
 // Append the class "new-class" to all children of the div with class "parent-div"
-appendClassToChildren('cards-wrapper', 'new-class');
+appendClassToChildren('cards', 'new-class');
+}
+
+
