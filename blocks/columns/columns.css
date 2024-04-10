@@ -1,7 +1,7 @@
 /* .columns > div {
   display: flex;
   flex-direction: column;
-} */
+} 
 
 .columns img {
   width: 100%;
@@ -20,17 +20,17 @@
 }
 
 @media (width >= 900px) {
-  /*.columns > div {
+  .columns > div {
     align-items: start;
     flex-direction: unset;
     gap: 32px;
-  }*/
+  }
 
   .columns > div > div {
     /* flex: 1; */
     order: unset;
   }
-}
+}*/
 
 .col-md-3 tr {
     display: block;
@@ -173,10 +173,6 @@ ul.list1 li {
     padding: 10px 20px;
     font-weight: normal;
     margin-top: 0 !important;
-}
-
-.col-md-3 {
-    padding: 0;
 }
 
 .col-md-9 {
