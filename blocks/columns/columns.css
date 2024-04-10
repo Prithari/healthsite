@@ -188,24 +188,37 @@ ul.list1 li:hover {
 	margin-bottom:10px;
 }
 
-ol {
+.col-md-9 ol {
   list-style-type: none;
   margin-left: 0;
+  
 }
 
-ol > li {
+.col-md-9 ol > li {
   counter-increment: customlistcounter;
- 
+  margin-left: 12px;
 }
 
-ol > li:before {
-  content: counter(customlistcounter) " ";
-  font-weight: bold;
-  float: left;
-  width: 3em;
-  color: red;
+.col-md-9 ol > li:before {
+    display: flex;
+    text-align: center;
+    content: counter(customlistcounter) " ";
+    font-weight: bold;
+    float: left;
+    width: 28px;
+    color: #fff;
+    height: 28px;
+    background: #CB177D;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6px;
+    margin-top: -4px;
+    font-size: 15px;
 }
 
-ol:first-child {
+.col-md-9 ol:first-child {
   counter-reset: customlistcounter;
 }
