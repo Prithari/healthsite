@@ -34,6 +34,14 @@ function appendClassToChildren(parentClass, childClass) {
       // Append the new class name to the child element
       childElements[i].classList.add(childClass);
     }
+
+    var footDiv = document.querySelector('.footer-ul');
+    var footchange = footDiv.children;
+      // Append the new class name to the child element
+    if(childchange.length > 0){ 
+          footchange[2].classList.add('foot-img');
+          footchange[3].classList.add('foot-social');
+    }
   } else {
     console.error('Parent div with class "' + parentClass + '" not found.');
   }
@@ -41,7 +49,7 @@ function appendClassToChildren(parentClass, childClass) {
  
 // Example usage:
 // Append the class "new-class" to all children of the div with class "parent-div"
-appendClassToChildren('cards', 'new-class');
+appendClassToChildren('cards', 'footer-ul');
 }
 
 
