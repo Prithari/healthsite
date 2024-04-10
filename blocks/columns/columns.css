@@ -91,7 +91,6 @@ ul.list1 li {
 	ul {
 		display: none;
 		li {
-			padding: 10px 15px 10px 30px;
 			background: #f4f4f4;
 			color: #6e6e6e;
 			font-size: 15px;
@@ -99,36 +98,19 @@ ul.list1 li {
 			border-bottom: 1px solid #ffffff;
 			line-height: 1em;
 		}
-	}li{
-    a {
-      padding: 0;
-      text-decoration: none;
-      color: #333;
-    }:hover{
-	 color: #CB177D;   
-    }
-  }
+	}
 }
 .list7.nav-list {
 	position: relative;
   ul {
     display: none;
     li {
-      padding: 10px 15px 10px 30px;
       background: #f4f4f4;
       color: #6e6e6e;
       font-size: 15px;
       text-decoration: none;
       border-bottom: 1px solid #ffffff;
       line-height: 1em;
-    }
-  }li{
-    a {
-      padding: 0;
-      text-decoration: none;
-      color: #333;
-    }:hover{
-	 color: #CB177D;   
     }
   }
 }
@@ -197,6 +179,7 @@ ul.list1 li {
     padding: 0;
     text-decoration: none;
     color: #333;
+    padding: 10px 15px 10px 30px;
 }
 .nav-list.show ul li a:hover {
     color: #CB177D;
