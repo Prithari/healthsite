@@ -86,7 +86,7 @@ ul.list1 li {
     line-height: 1em;
 }
 
-ul.list1 li:hover {
+ul.list1 li a:hover {
    background-color:#fff;
    color:red;
 }
