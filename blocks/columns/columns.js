@@ -65,8 +65,10 @@ export default function decorate(block) {
 appendClassToChildren('columns-2-cols', 'row');
   
 document.querySelector('.list5').addEventListener('click', () => {
-	console.log(this);
-	if(this.classname == 'hide'){
+	var check = document.querySelector('.list5')
+		console.log(check);
+
+	if(check.classname == 'hide'){
 		alert();
 		document.querySelector('.list5 ul').style.display = "block";
 		this.addclass("show");
