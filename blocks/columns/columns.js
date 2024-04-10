@@ -66,9 +66,9 @@ appendClassToChildren('columns-2-cols', 'row');
   
 document.querySelector('.list5').addEventListener('click', () => {
 	var check = document.querySelector('.list5')
-		console.log(check.classname);
+		console.log(check.className);
 
-	if(check.classname == 'hide'){
+	if(check.className == 'hide'){
 		alert();
 		document.querySelector('.list5 ul').style.display = "block";
 		this.addclass("show");
