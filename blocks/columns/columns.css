@@ -93,7 +93,12 @@ ul.list1 li {
 .nav-list a:hover{
    color: #CB177D;
 }*/
-
+li.list5.nav-list.hide:hover::before{
+	color: #CB177D;
+}
+li.list5.nav-list.hide::before{
+	color: #CB177D;
+}
 .list5 {
 	position: relative;
 	ul {
