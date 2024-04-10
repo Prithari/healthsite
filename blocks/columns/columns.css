@@ -77,21 +77,6 @@
   color: #ffffff;
 }
 
-li a:hover{
-  color: #fff;
-}
-
-ul.list1 li:hover {
-    color: #CB177D;
-    background:#fff;
-}
-
-ul.list5:before::hover {
-    color: #CB177D;
-}
-ul.list7:hover::before {
-    color: red !important;
-}
 ul.list1 li {
     display: block;
     background: #CB177D;
