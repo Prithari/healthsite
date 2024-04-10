@@ -268,3 +268,14 @@ ul.list1 li {
 .main-rtl ol:first-child {
   counter-reset: customlistcounter;
 }
+
+.nav-list:hover{
+	background:#fff;
+}
+
+.nav-list:hover{
+	color:#CB177D;
+}
+.list5.nav-list:hover::before{
+	color:#CB177D;
+}
