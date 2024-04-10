@@ -184,3 +184,7 @@ ul.list1 li:hover {
     margin-bottom: 20px;
 }
 
+.col-md-9 li{
+	margin-bottom:10px;
+}
+
