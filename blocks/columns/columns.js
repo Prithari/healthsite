@@ -35,7 +35,7 @@ export default function decorate(block) {
       // Append the new class name to the child element
     if(childchange.length > 0){ 
           childchange[0].classList.add('col-md-3');
-          childchange[1].classList.add('col-md-9' 'test01');
+          childchange[1].classList.add('col-md-9 + ('test')');
     }
 
     var uiDiv = document.querySelector('.col-md-3');
