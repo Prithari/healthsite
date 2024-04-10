@@ -83,7 +83,6 @@ li a:hover{
 
 ul.list1 li a:hover {
     color: #CB177D;
-    background: #fff;
 }
 
 ul.list5:before::hover {
