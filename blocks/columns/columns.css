@@ -86,11 +86,11 @@ ul.list1 li a:hover {
     background: #fff;
 }
 
-ul.list5:hover::before {
+ul.list5:before::hover {
     color: #CB177D;
 }
 ul.list7:hover::before {
-    color: red;
+    color: red !important;
 }
 ul.list1 li {
     display: block;
