@@ -143,7 +143,7 @@ ul.list1 li {
   }
 }
 
-.list5.nav-list.hide:before{
+.list5.nav-list:before{
 	font-family: "Font Awesome 5 Free";
 	content: "\f055";
 	display: inline-block;
@@ -171,7 +171,7 @@ ul.list1 li {
     cursor: pointer;
 }
 
-.list7.nav-list.hide:before{
+.list7.nav-list:before{
 	font-family: "Font Awesome 5 Free";
 	content: "\f055";
 	display: inline-block;
