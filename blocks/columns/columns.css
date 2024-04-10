@@ -273,7 +273,7 @@ ul.list1 li {
 	background:#fff;
 }
 
-.nav-list:hover{
+.nav-list a:hover{
 	color:#CB177D;
 }
 .list5.nav-list:hover::before{
