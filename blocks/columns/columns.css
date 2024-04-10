@@ -86,6 +86,19 @@ ul.list1 li {
     line-height: 1em;
 }
 
+/*.nav-list:hover{
+   background: #fff;
+}
+
+.nav-list a:hover{
+   color: #CB177D;
+}*/
+li.list5.nav-list.hide:hover::before{
+	color: #CB177D;
+}
+li.list5.nav-list.hide::before{
+	color: #CB177D;
+}
 .list5 {
 	position: relative;
 	ul {
@@ -100,24 +113,41 @@ ul.list1 li {
 			line-height: 1em;
 		}
 	}
-	
+	li {
+		a {
+			padding: 0;
+			text-decoration: none;
+			color: #333;
+		}:hover{
+			 color: #CB177D;   
+		    }
+	}
 }
 .list7 {
 	position: relative;
-	ul {
-		display: none;
-		li {
-			padding: 10px 15px 10px 30px;
-			background: #f4f4f4;
-			color: #6e6e6e;
-			font-size: 15px;
-			text-decoration: none;
-			border-bottom: 1px solid #ffffff;
-			line-height: 1em;
-		}
-	}
-	
+  ul {
+    display: none;
+    li {
+      padding: 10px 15px 10px 30px;
+      background: #f4f4f4;
+      color: #6e6e6e;
+      font-size: 15px;
+      text-decoration: none;
+      border-bottom: 1px solid #ffffff;
+      line-height: 1em;
+    }
+  }
+  li{
+    a {
+      padding: 0;
+      text-decoration: none;
+      color: #333;
+    }:hover{
+	 color: #CB177D;   
+    }
+  }
 }
+
 .list5:before{
 	font-family: "Font Awesome 5 Free";
 	content: "\f055";
@@ -174,21 +204,30 @@ ul.list1 li {
     cursor: pointer;
 }
 
-.nav-list.show {
+li.list5.show {
     background: #fff;
 }
-.nav-list.show a {
+li.list5.show a {
     color: #CB177D;
 }
-.nav-list.show ul li a {
+li.list5.show ul li a {
     color: #333;
-    padding: 0;
-    text-decoration: none;
 }
-.nav-list.show ul li a:hover {
+li.list5.show ul li a:hover {
     color: #CB177D;
 }
-
+li.list7.show {
+    background: #fff;
+}
+li.list7.show a {
+    color: #CB177D;
+}
+li.list7.show ul li a {
+    color: #333;
+}
+li.list7.show ul li a:hover {
+    color: #CB177D;
+}
 .main-rtl table{
     width:100%;
     background: #f4f4f4;
