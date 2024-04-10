@@ -90,6 +90,18 @@ ul.list1 li {
 }
 
 .list5 {
+	position: relative;
+	:before{
+		font-family: "Font Awesome 5 Free";
+		    content: "\f055";
+		    display: inline-block;
+		    padding-right: 3px;
+		    vertical-align: middle;
+		    font-weight: 900;
+		    position: absolute;
+		    top: 9px;
+		    right: 10px;
+	}
 	ul {
 		display: none;
 		li {
