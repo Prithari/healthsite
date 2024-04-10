@@ -238,29 +238,3 @@ main .section.highlight {
     aspect-ratio: unset;
     object-fit: cover;
 }
-
-ol > li:before {  
-    background-color: red;
-    margin-right: 5px;
-    padding: 0 5px;
-    content: counter(index, decimal);
-    counter-increment:index;
-}
-li:first-child {
-    counter-reset:index;
-}
-ol li {
-    list-style: none;
-}
-
-ol > li:nth-child(1):before {  
-    background-color: yellow;
-}
-
-ol > li:nth-child(2):before {  
-    background-color: blue;
-}
-
-ol > li:nth-child(3):before {  
-    background-color: orange;
-}
