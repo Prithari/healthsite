@@ -76,6 +76,10 @@
   color: #ffffff;
 }
 
+list1 li a:hover{
+  color: #CB177D !important;
+}
+
 li a:hover{
   color: #CB177D !important;
 }
@@ -87,10 +91,6 @@ ul.list1 li {
     text-decoration: none;
     border-bottom: 1px solid #ffffff;
     line-height: 1em;
-}
-
-ul.list1 li a:hover{
-  color: #CB177D !important;
 }
 
 ul.list1 li:hover {
