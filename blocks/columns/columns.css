@@ -162,9 +162,6 @@ li.list5.nav-list.hide::before{
 	cursor:pointer;
 }
 
-.list5:hover::before{
-	color: #CB177D !important;
-}
 .list5.show:before {
     font-family: "Font Awesome 5 Free";
     content: "\f056";
@@ -192,9 +189,7 @@ li.list5.nav-list.hide::before{
 	color: #fff;
 	cursor:pointer;
 }
-.list7:hover::before{
-	color: #CB177D !important;
-}
+
 .list7.show:before {
     font-family: "Font Awesome 5 Free";
     content: "\f056";
