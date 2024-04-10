@@ -59,8 +59,6 @@ li.foot-img .cards-card-body {
     gap: 10px;
 }
 
-.foot-social .cards-card-body picture img {
-    width: 85%;
-    aspect-ratio: unset;
-    object-fit: cover;
+.foot-social .cards-card-body img {
+    width: 85% !important;
 }
