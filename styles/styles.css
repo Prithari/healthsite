@@ -76,6 +76,7 @@ body.appear {
 header {
   /* height: var(--nav-height); */
   height: 160px;
+  box-shadow: 0px 0px 4px #6e6e6e;
 }
 
 h1, h2, h3,
