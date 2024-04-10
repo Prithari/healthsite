@@ -14,7 +14,7 @@ header nav {
     'sections sections sections' 1fr / auto 1fr auto;
   align-items: center;
   /* gap: 0 2em; */
-  gap: 60px;
+  gap:45px;
   margin: auto;
   /* max-width: 1264px; */
    max-width: 100%; 
@@ -34,7 +34,7 @@ header nav[aria-expanded="true"] {
 
 @media (width >= 600px) {
   header nav {
-    padding: 0 2rem;
+    /*padding: 0 2rem;*/
   }
 }
 
