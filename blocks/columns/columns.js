@@ -73,7 +73,9 @@ document.querySelector('.list5').addEventListener('click', () => {
 		check.classList.add("show");
 		check.classList.remove("hide");
 	}else{
-		
+		document.querySelector('.list5 ul').style.display = "none";
+		check.classList.add("hide");
+		check.classList.remove("show");
 	}
 });
 
