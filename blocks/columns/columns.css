@@ -199,4 +199,6 @@ ul.list1 li:hover {
 }
 .col-md-9 ol li {
     list-style: none;
+	position: relative;
+    padding: 5px 0 15px 15px;
 }
