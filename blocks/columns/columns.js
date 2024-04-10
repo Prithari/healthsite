@@ -35,7 +35,7 @@ export default function decorate(block) {
       // Append the new class name to the child element
     if(childchange.length > 0){ 
           childchange[0].classList.add('col-md-3');
-          childchange[1].classList.add('col-md-9');
+          childchange[1].classList.add('col-md-9 col-rtl');
     }
 
     var uiDiv = document.querySelector('.col-md-3');
@@ -64,10 +64,6 @@ appendClassToChildren('columns-2-cols', 'row');
   
 document.querySelector('.list5').addEventListener('click', () => {
 	var test = document.querySelector('.list5 ul').style.display = "block";
-	console.log('check '+ test);
-	if(test == "block"){
-		console.log("hi");
-	}
 });
 
  document.querySelector('.list7').addEventListener('click', () => {
