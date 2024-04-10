@@ -107,7 +107,9 @@ ul.list1 li {
 			padding: 0;
 			text-decoration: none;
 			color: #333;
-		}
+		}:hover{
+			 color: #CB177D;   
+		    }
 	}
 }
 .list7 {
@@ -128,6 +130,8 @@ ul.list1 li {
       padding: 0;
       text-decoration: none;
       color: #333;
+    }:hover{
+	 color: #CB177D;   
     }
   }
 }
