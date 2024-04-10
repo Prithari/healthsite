@@ -32,7 +32,7 @@
   }
 }*/
 
-.col-md-3 tr {
+.main-lft tr {
     display: block;
     padding: 10px 15px;
     background: #CB177D;
@@ -43,26 +43,26 @@
     line-height: 1em;
 }
 
-.col-md-9 h1{
+.main-rtl h1{
   margin: 20px 0 20px 0;
   color: #CB177D;
   font-size:28px;
 }
 
-.col-md-9 h2{
+.main-rtl h2{
   margin: 20px 0 20px 0;
   color: #333333;
   font-size:25px;
 }
 
-.col-md-9 h3{
+.main-rtl h3{
   color: #6e6e6e;
   font-size:14px;
   line-height: 22px;
   font-weight: bold;
 }
 
-.col-md-3 ul {
+.main-lft ul {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -136,14 +136,14 @@ ul.list1 li {
   }
 }
 
-.col-md-9 table{
+.main-rtl table{
     width:100%;
     background: #f4f4f4;
     padding: 10px 20px;
     margin-bottom: 20px;
 }
 
-.col-md-9 table tbody tr td p strong{
+.main-rtl table tbody tr td p strong{
     background: #CB177D;
     width: 100%;
     display: flex;
@@ -152,7 +152,7 @@ ul.list1 li {
     padding: 10px 20px;
 }
 
-.col-md-9 table tbody tr td p strong{
+.main-rtl table tbody tr td p strong{
     background: #CB177D;
     width: 100%;
     display: flex;
@@ -161,41 +161,41 @@ ul.list1 li {
     padding: 10px 20px;
 }
 
-.col-md-9 table tbody tr td h4{
+.main-rtl table tbody tr td h4{
     font-size:14px !important;
     padding: 10px 20px;
     font-weight: normal;
     color: #6e6e6e;
 }
 
-.col-md-9 table tbody tr td h3{
+.main-rtl table tbody tr td h3{
     font-size:18px !important;
     padding: 10px 20px;
     font-weight: normal;
     margin-top: 0 !important;
 }
 
-.col-md-9 {
+.main-rtl {
     margin-bottom: 20px;
 }
 
-.col-md-9 li{
+.main-rtl li{
 	margin-bottom:10px;
 }
 
-.col-md-9 ol {
+.main-rtl ol {
   list-style-type: none;
   margin-left: 0;
   position: relative;
 }
 
-.col-md-9 ol > li {
+.main-rtl ol > li {
   counter-increment: customlistcounter;
   margin-left: 12px;
   margin-bottom: 16px;
 }
 
-.col-md-9 ol > li:before {
+.main-rtl ol > li:before {
     display: flex;
     text-align: center;
     content: counter(customlistcounter) " ";
@@ -215,6 +215,6 @@ ul.list1 li {
     font-size: 15px;
 }
 
-.col-md-9 ol:first-child {
+.main-rtl ol:first-child {
   counter-reset: customlistcounter;
 }
