@@ -89,6 +89,10 @@ ul.list1 li {
     line-height: 1em;
 }
 
+ul.list1 li a:hover{
+  color: #CB177D !important;
+}
+
 ul.list1 li:hover {
     background: #ffffff;
     text-decoration: none;
