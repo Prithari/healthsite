@@ -48,19 +48,7 @@
   color: #CB177D;
   font-size:28px;
 }
-.nav-list:hover{
-	background:#fff;
-}
 
-.nav-list:hover a{
-	color:#CB177D;
-}
-.list5.nav-list:hover::before{
-	color:#CB177D;
-}
-.list7.nav-list:hover::before{
-	color:#CB177D;
-}
 .main-rtl h2{
   margin: 20px 0 20px 0;
   color: #333333;
@@ -126,7 +114,16 @@ ul.list1 li {
     }
   }
 }
+.nav-list:hover{
+	background:#fff;
+}
 
+.nav-list:hover a{
+	color:#CB177D;
+}
+.nav-list:hover::before{
+	color:#CB177D;
+}
 .list5.nav-list:before{
 	font-family: "Font Awesome 5 Free";
 	content: "\f055";
