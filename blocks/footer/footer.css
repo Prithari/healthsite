@@ -49,3 +49,11 @@ footer .footer p {
     color: #fff;
     text-align: center;
 }
+
+li.foot-img .cards-card-body {
+    margin-top: 55px;
+}
+
+.foot-social .cards-card-body {
+    display: flex;
+}
