@@ -86,14 +86,7 @@ ul.list1 li {
     line-height: 1em;
 }
 
-ul.list1 li:hover {
-   background-color:#fff;
-   color:#CB177D;
-}
 
-ul.list1 li a:hover {
-   color:#CB177D;
-}
 
 .list5 {
 	position: relative;
@@ -161,7 +154,19 @@ ul.list1 li a:hover {
 .list5:hover::before{
 	color: #CB177D !important;
 }
-
+.list5.show:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f056";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+    cursor: pointer;
+}
 .list7:before{
 	font-family: "Font Awesome 5 Free";
 	content: "\f055";
@@ -178,7 +183,19 @@ ul.list1 li a:hover {
 .list7:hover::before{
 	color: #CB177D !important;
 }
-
+.list7.show:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f056";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+    cursor: pointer;
+}
 .main-rtl table{
     width:100%;
     background: #f4f4f4;
