@@ -52,7 +52,7 @@
 	background:#fff;
 }
 
-.nav-list a:hover{
+.nav-list:hover a{
 	color:#CB177D;
 }
 .list5.nav-list:hover::before{
