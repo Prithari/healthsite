@@ -164,6 +164,10 @@ ul.list1 li {
 	cursor:pointer;
 }
 
+.list5:before::hover{
+	color: red !important;
+}
+
 .list7:before{
 	font-family: "Font Awesome 5 Free";
 	content: "\f055";
