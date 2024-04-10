@@ -121,7 +121,10 @@ ul.list1 li {
 .nav-list:hover a{
 	color:#CB177D;
 }
-.nav-list:hover::before{
+.list5.nav-list:hover::before{
+	color:#CB177D;
+}
+.list7.nav-list:hover::before{
 	color:#CB177D;
 }
 .list5.nav-list:before{
