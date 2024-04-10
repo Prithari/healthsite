@@ -50,12 +50,11 @@ export default function decorate(block) {
       // Append the new class name to the child element
 	for (var i = 0; i < uichange1.length; i++) {
       // Append the new class name to the child element
-      uichange1[i].classList.add("list"+(i+2), "nav-list");
-		if(i == 3){
-		 uichange1[i].classList.add("hide");
-		}
+      uichange1[i].classList.add("list"+(i+2));
+	if(i == 3){
+	 uichange1[i].classList.add("hide");
+	}
     }   
-
   } else {
     console.error('Parent div with class "' + parentClass + '" not found.');
   }
@@ -66,8 +65,6 @@ appendClassToChildren('columns-2-cols', 'row');
   
 document.querySelector('.list5').addEventListener('click', () => {
 	var check = document.querySelector('.list5')
-		console.log(check.className);
-
 	if(check.className.includes('hide')){
 		document.querySelector('.list5 ul').style.display = "block";
 		check.classList.add("show");
@@ -81,8 +78,6 @@ document.querySelector('.list5').addEventListener('click', () => {
 
  document.querySelector('.list7').addEventListener('click', () => {
 	 var check = document.querySelector('.list7')
-		console.log(check.className);
-
 	if(check.className.includes('hide')){
 		document.querySelector('.list7 ul').style.display = "block";
 		check.classList.add("show");
