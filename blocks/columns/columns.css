@@ -86,6 +86,11 @@ ul.list1 li {
     line-height: 1em;
 }
 
+ul.list1 li:hover {
+   background-color:#fff;
+   color:red;
+}
+
 .list5 {
 	position: relative;
 	ul {
