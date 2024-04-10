@@ -52,7 +52,11 @@ export default function decorate(block) {
       // Append the new class name to the child element
       uichange1[i].classList.add("list"+(i+2));
     }  
-    
+
+    var dropUL = document.querySelector('.list5');
+    var dropchange = dropUL.children;
+      appendClassToChildren('dropchange', 'rowtest');
+    }  
 
   } else {
     console.error('Parent div with class "' + parentClass + '" not found.');
