@@ -239,7 +239,7 @@ main .section.highlight {
     object-fit: cover;
 }
 
-ul > li:before {  
+ol > li:before {  
     background-color: red;
     margin-right: 5px;
     padding: 0 5px;
@@ -249,18 +249,18 @@ ul > li:before {
 li:first-child {
     counter-reset:index;
 }
-ul li {
+ol li {
     list-style: none;
 }
 
-ul > li:nth-child(1):before {  
+ol > li:nth-child(1):before {  
     background-color: yellow;
 }
 
-ul > li:nth-child(2):before {  
+ol > li:nth-child(2):before {  
     background-color: blue;
 }
 
-ul > li:nth-child(3):before {  
+ol > li:nth-child(3):before {  
     background-color: orange;
 }
