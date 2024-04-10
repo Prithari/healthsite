@@ -1,7 +1,7 @@
-.columns > div {
+/* .columns > div {
   display: flex;
   flex-direction: column;
-}
+} */
 
 .columns img {
   width: 100%;
