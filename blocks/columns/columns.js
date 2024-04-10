@@ -67,12 +67,7 @@ export default function decorate(block) {
 appendClassToChildren('columns-2-cols', 'row');
   
 document.querySelector('.list5').addEventListener('click', () => {
-	var test = document.querySelector('.list5 ul').style;
-	if(test.style.display === "none"){
-		document.querySelector('.list5 ul').style.display = "block";
-	}else{
-		document.querySelector('.list5 ul').style.display = "none";
-	}
+	document.querySelector('.list5 ul').style.display = "block";
 });
 
  document.querySelector('.list7').addEventListener('click', () => {
