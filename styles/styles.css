@@ -210,7 +210,7 @@ main .section {
 }
 
 @media (width < 900px) {
-  .default-content-wrapper p a picture {
+  header .nav-brand {
     margin-top: 100px;
   }
   header .nav-wrapper {
