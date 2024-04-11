@@ -300,7 +300,7 @@ header nav .nav-sections ul > li > ul > li {
     white-space: initial;
     box-shadow: 1px 1px 1px #999999;
   }  
-  .nav-drop:hover header nav .nav-sections .default-content-wrapper > ul > li[aria-expanded="true"] > ul{
+  .nav-drop:hover header nav .nav-sections .default-content-wrapper > ul > li > ul{
   	display:block;
   }
   header nav .nav-sections .default-content-wrapper > ul > li > ul > li > a {
