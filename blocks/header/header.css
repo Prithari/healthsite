@@ -291,7 +291,7 @@ header nav .nav-sections ul > li > ul > li {
   }*/
 
  header nav .nav-sections .default-content-wrapper > ul > li[aria-expanded="true"] > ul {
-    display: none;
+    display: block;
     position: absolute;
     left: 2px;
     width: 217px;
