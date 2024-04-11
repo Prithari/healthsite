@@ -210,7 +210,7 @@ main .section {
 }
 
 @media (width < 900px) {
-  header .nav-brand {
+  .section.nav-brand {
     margin-top: 100px;
   }
   header .nav-wrapper {
