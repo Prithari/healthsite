@@ -31,6 +31,14 @@
     order: unset;
   }
 }*/
+
+.columns.block.columns-2-cols {
+    padding: 0 30px;
+}
+
+.col-md-3.main-lft {
+    padding-right: 0;
+}
 .main-lft{
    background: #fff;
 }
