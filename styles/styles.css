@@ -209,6 +209,15 @@ main .section {
   }
 }
 
+@media (width < 900px) {
+  picture {
+    margin-top: 100px;
+  }
+  header .nav-wrapper {
+      min-height: 160px;
+  }
+}
+
 /* section metadata */
 main .section.light,
 main .section.highlight {
