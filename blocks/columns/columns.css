@@ -35,7 +35,8 @@
    background: #fff;
 }
 .main-rtl{
-   background: #fff;	
+   background: #fff;
+   padding: 0 20px 20px 20px;
 }
 .main-lft tr {
     display: block;
@@ -240,10 +241,6 @@ ul.list1 li {
     padding: 10px 20px;
     font-weight: normal;
     margin-top: 0 !important;
-}
-
-.main-rtl {
-    margin-bottom: 20px;
 }
 
 .main-rtl li{
