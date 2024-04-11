@@ -291,7 +291,7 @@ header nav .nav-sections ul > li > ul > li {
   }*/
 
  header nav .nav-sections .default-content-wrapper > ul > li[aria-expanded="true"] > ul {
-    display: block;
+    display: none;
     position: absolute;
     left: 2px;
     width: 217px;
@@ -300,7 +300,9 @@ header nav .nav-sections ul > li > ul > li {
     white-space: initial;
     box-shadow: 1px 1px 1px #999999;
   }  
-
+  .nav-drop:hover header nav .nav-sections .default-content-wrapper > ul > li[aria-expanded="true"] > ul{
+  	display:block;
+  }
   header nav .nav-sections .default-content-wrapper > ul > li > ul > li > a {
     display: block;
     padding: 10px;
