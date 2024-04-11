@@ -214,7 +214,10 @@ main .section.light,
 main .section.highlight {
   background-color: var(--light-color);
 }
-
+.col-md-3.main-lft {
+    padding-left: 0;
+    padding-right: 0;
+}
 /* new code */
 .default-content-wrapper h1{
     font-size: 2.1em;
