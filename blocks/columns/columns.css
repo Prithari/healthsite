@@ -31,7 +31,12 @@
     order: unset;
   }
 }*/
-
+.main-lft{
+   background: #fff;
+}
+.main-rtl{
+   background: #fff;	
+}
 .main-lft tr {
     display: block;
     padding: 10px 15px;
