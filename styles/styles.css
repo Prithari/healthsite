@@ -187,7 +187,9 @@ main img {
   height: 100%;
   width: 100%;
 }
-
+.columns-2-cols .row {
+    padding: 0 50px;
+}
 /* sections */
 main .section {
   padding: 64px 16px;
