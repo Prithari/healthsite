@@ -279,7 +279,7 @@ header nav .nav-sections ul > li > ul > li {
     position: relative;
   }
 
-  header nav .nav-sections .default-content-wrapper > ul > li[aria-expanded="true"] > ul {
+  /* header nav .nav-sections .default-content-wrapper > ul > li[aria-expanded="true"] > ul {
     display: block;
     position: absolute;
     left: -1em;
@@ -288,6 +288,34 @@ header nav .nav-sections ul > li > ul > li {
     padding: 1em;
     background-color: var(--light-color);
     white-space: initial;
+  }*/
+
+ header nav .nav-sections .default-content-wrapper > ul > li[aria-expanded="true"] > ul {
+    display: block;
+    position: absolute;
+    left: 2px;
+    width: 217px;
+    margin-top: 12px;
+    padding: 1em;
+    background-color: var(--light-color);
+    white-space: initial;
+    box-shadow: 1px 1px 1px #999999;
+  }  
+
+  header nav .nav-sections .default-content-wrapper > ul > li > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-align: left;
+    font-size: 1.1em;
+    font-weight: normal;
+    text-transform: none;
+    text-decoration: none;
+    color: #CB177D;
+    background: #f4f4f4;
+    border-left: none;
+    border-bottom: 1px solid #ffffff;
+    outline-color: #000000;
+    outline-width: 3px;
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li > ul::before {
@@ -303,7 +331,7 @@ header nav .nav-sections ul > li > ul > li {
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li > ul > li {
-    padding: 8px 0;
+    /*padding: 8px 0;*?
   }
 }
 
