@@ -38,7 +38,7 @@ header nav[aria-expanded="true"] {
 
 @media (width >= 600px) {
   header nav {
-    padding: 0 25px;
+    padding: 0 42px;
   }
 }
 
@@ -247,7 +247,7 @@ header nav .nav-sections ul > li > ul > li {
     flex: 0 1 auto;
     position: relative;
     font-weight: 500;
-    min-width:215px;
+    min-width:219px;
     background: #CB177D;
     border-left: 1px solid #ffffff;
     vertical-align: middle;
