@@ -243,8 +243,13 @@ ul.list1 li {
     padding: 10px 20px;
     font-weight: normal;
     margin-top: 0 !important;
+    margin-bottom: 0 !important;
 }
-
+.main-rtl table tbody tr td ul {
+    padding: 0 0 0 50px;
+    color: #6e6e6e;
+    font-size: 14px;
+}
 .main-rtl li{
 	margin-bottom:10px;
 }
