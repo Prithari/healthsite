@@ -226,6 +226,7 @@ main .section.highlight {
 .col-md-3.main-lft {
     padding-left: 0;
     padding-right: 0;
+    background: #fff;
 }
 /* new code */
 .default-content-wrapper h1{
