@@ -38,7 +38,7 @@
 }
 .col-md-9.main-rtl{
    background: #fff;
-   padding: 0 20px 20px 20px;
+   padding: 0 40px 20px 40px;
 }
 .main-lft tr {
     display: block;
@@ -52,7 +52,7 @@
 }
 
 .main-rtl h1{
-  margin: 20px 0 20px 0;
+  margin: 20px 0 40px 0;
   color: #CB177D;
   font-size:28px;
 }
